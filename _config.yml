@@ -5,8 +5,8 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Silvan Daehn
-tagline:             Please add a tagline
+title:               silvandaehn.com
+tagline:             
 url:                 http://getpoole.com
 paginate:            5
 baseurl:             ""

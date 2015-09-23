@@ -1,30 +1,11 @@
 ---
 layout: page
-title: About
+title: About me
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+I am Silvan, an iOS developer living in Hamburg, Germany. I studied human-computer interaction (HCI) at the University of Hamburg and am interested in design, photography and technology.
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Together with two friends I developed [Equal](http://equalapp.net/), a group expense managing application for iOS.
+While studying I worked at [XING AG]("http://www.xing.com") as iOS developer (working student), and I still work as a drummer sometimes. I also enjoy listening to good podcasts and drinking a good craft beer from time to time.
 
-There are currently two themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+You can check out my pictures on [Instagram]("http://instagram.com/silvandaehn") or [Flickr]("https://www.flickr.com/photos/92838512@N07/") and get in touch with me on [Twitter]("https://twitter.com/silvandaehn") or via [mail]("mailto:mail@silvandaehn.de").

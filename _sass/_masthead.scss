@@ -3,24 +3,101 @@
 // Super small header above the content for site name and short description.
 
 .masthead {
-  padding-top:    1rem;
+  padding-top:    2rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+}
+
+#right {
+  float: right;
+}
+
+#about {
+  color: #9a9a9a;
+  font-size: 15px; 
+  margin-right: 1.3rem;
+  display: inline-block;
+  -webkit-transition: border-bottom 0.2s;
+  border-bottom: 1px solid trasparent;
+
+  &:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #9a9a9a;
+    -webkit-transition: border-bottom 0.15s;
+   }
+}
+
+.twitter {
+  margin-right: 5px;
+  float: right;
+  display: inline-block;
+  margin-top: 7px;
+  width: 21px;
+  height: 21px;
+
+  &:hover {
+    -webkit-animation: tada 800ms ease-out;
+    -moz-animation: tada 800ms ease-out;
+    -o-animation: tada 800ms ease-out;
+    animation: tada 800ms ease-out;
+  }
 }
 
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
+  font-weight: 400;
 
-  a {
-    color: #505050;
+  #title {
+  padding: .2em .5em;
+  font-size: 95%;
+  color: #B72A6A;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 0px 0.5px rgba(0, 0, 0, 0.06);
+  -webkit-transition: box-shadow 0.2s;
+
+  &:hover {
+    box-shadow: 0 0 0px 1px #B72A6A;
+    text-decoration: none;
+    -webkit-transition: box-shadow 0.15s;
   }
+}
 
   small {
     font-size: 70%;
     font-weight: 400;
     color: #c0c0c0;
     letter-spacing: 0;
+  }
+}
+
+// Tada animation keyframes
+
+@keyframes tada {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%, 20% {
+    -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%, 50%, 70%, 90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%, 60%, 80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
   }
 }

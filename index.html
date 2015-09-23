@@ -6,11 +6,11 @@ title: Home
 <div class="posts">
   {% for post in paginator.posts %}
   <article class="post">
-  <small><time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time></small> <h3 class="post-title">
+  <small><time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time></small> <h2 class="post-title small">
       <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
       </a>
-    </h1>
+    </h2>
     {{ post.description }}
   </article>
   {% endfor %}
