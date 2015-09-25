@@ -25,5 +25,5 @@ author:
 
 # Custom vars
 version:            1.0.0
-github:				daehn
-  repo:             daehn.github.io
+github_username:	daehn			
+repo_url:           https://github.com/daehn/daehn.github.io
