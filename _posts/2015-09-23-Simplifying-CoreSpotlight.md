@@ -5,7 +5,7 @@ description: This article describes a simple application of Swift 2.0's protocol
 
 ---
 
-Default implementations in protocol extensions allow us to inject functionalities in to a type by simply letting it conform to the extended protocol. In this article I want to take a look at how we can remove code duplication with this patttern using the example of making instances of structs or classes available to Spotlight searching.
+Default implementations in protocol extensions allow us to inject functionalities into a type by simply letting it conform to the extended protocol. In this article I want to take a look at how we can remove code duplication with this patttern using the example of making instances of structs or classes available to Spotlight searching.
 With `CoreSpotlight`, `NSUserActivity` and `WebMarkup` there are three different ways in iOS 9 to make app content searchable with Spotlight. In this article I am going to focus on `CoreSpotlight` as it is intended to add app-specific content to the on-device index. To start, let's assume we are building a note taking application and have a `Note` struct that we want to index for Spotlight searching. 
 
 {% gist e4c9a6a04ed4e2d281a1 %}
