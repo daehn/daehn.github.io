@@ -27,3 +27,4 @@ author:
 version:            1.0.0
 github_username:	daehn			
 repo_url:           https://github.com/daehn/daehn.github.io
+exclude: 			[vendor]
