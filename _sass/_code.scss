@@ -28,7 +28,6 @@ pre code {
 // Pygments via Jekyll
 .highlight {
   padding: 0.5rem;
-  // margin-bottom: 1rem;
   font-size: 9.5pt;
   line-height: 1.4;
   background-color: white;
@@ -87,7 +86,7 @@ pre code {
 
   padding: 4px 0px !important;
   border: 1px solid #DFDFDF !important;
-  // border-bottom: none !important;
+
   -moz-border-radius-bottomleft: 5px;
   -webkit-border-bottom-left-radius: 5px;
   -moz-border-radius-bottomright: 5px;
@@ -97,36 +96,3 @@ pre code {
   -moz-border-radius-topright: 5px;
   -webkit-border-top-right-radius: 5px;
 }
-
-
-// .gist-meta{
-//   border: 1px solid #DFDFDF !important;
-//   padding: 4px !important;
-//   -moz-border-radius-bottomleft: 5px;
-//   -webkit-border-bottom-left-radius: 5px;
-//   -moz-border-radius-bottomright: 5px;
-//   -webkit-border-bottom-right-radius: 5px;
-// }
-
-// .gist-data{
-
-//   .pl-k {
-//     color: #B72A6A !important;
-//   }
-
-//   .pl-c1 {
-//     color: #1AA0CF !important;
-//   }
-
-//   // .pl-en {
-//   //   color: #72569D !important;
-//   // }
-
-//   padding: 4px 0px !important;
-//   border: 1px solid #DFDFDF !important;
-//   border-bottom: none !important;
-//   -moz-border-radius-topleft: 5px;
-//   -webkit-border-top-left-radius: 5px;
-//   -moz-border-radius-topright: 5px;
-//   -webkit-border-top-right-radius: 5px;
-// }

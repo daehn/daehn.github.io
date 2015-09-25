@@ -19,6 +19,15 @@ h2 {
   font-size: 1.5rem;
 }
 
+@media (max-width: 440px) {
+   h1 {
+      font-size: 1.4rem;
+    } 
+    h2 {
+      font-size: 1.2rem;
+    }
+  }
+
 h3 {
   margin-top: 1.5rem;
   font-size: 1.25rem;
