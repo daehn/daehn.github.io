@@ -11,6 +11,11 @@ pre {
 code {
   font-size: 95%;
   color: #B72A6A;
+  @media (max-width: 440px) {
+   & {
+      word-break: break-all;
+    } 
+  }
 }
 
 pre {
