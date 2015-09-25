@@ -7,9 +7,8 @@ relative_permalinks: true
 # Setup
 title:               silvandaehn.com
 tagline:             
-url:                 http://getpoole.com
+url:                 http://silvandaehn.com
 paginate:            5
-baseurl:             ""
 
 # Assets
 #
@@ -25,7 +24,7 @@ author:
   email:             mail@silvandaehn.com
 
 # Custom vars
-version:             1.0.0
-github:
-  repo:              https://github.com/daehn/daehn.github.io
+version:            1.0.0
+github_username:	daehn			
+repo_url:           https://github.com/daehn/daehn.github.io
 exclude: 			[vendor]
