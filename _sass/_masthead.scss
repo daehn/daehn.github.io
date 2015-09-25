@@ -34,6 +34,12 @@
   width: 21px;
   height: 21px;
 
+  @media (max-width: 440px) {
+    & {
+    margin-top: 3px;
+  }
+  }
+
   &:hover {
     -webkit-animation: tada 800ms ease-out;
     -moz-animation: tada 800ms ease-out;
