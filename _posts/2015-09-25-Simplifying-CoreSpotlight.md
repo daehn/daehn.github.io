@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simplifying CoreSpotlight with default implementations in Swift 2.0 protocol extensions
-description: This article describes a simple application of Swift 2.0's protocol extensions. We will simplify how types can be easily made searchable with Spotlight by conforming to our protocol while moving the indexing logic in a separate file and reducing code duplication.
+description: This article describes a simple application of Swift 2.0's protocol extensions. We will simplify how types can be made searchable with Spotlight by conforming to our protocol, while moving the indexing logic in a separate file and reducing code duplication.
 
 ---
 
