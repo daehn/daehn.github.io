@@ -37,3 +37,5 @@ Each `Note` instance can now be added and removed Spotlight search by calling `a
 
 If we now want to add another type like maybe the users friends to Spotlight, we only have to make it conform to our protocol, define the mapping through the properties defined in the protocol and then call the methods to add or remove it. If the newly added type requires to set properties like `altitude` or `city` on the `CSSearchableItemAttributeSet`, we can extend our protocol like we did with the optional `spotlightImage` and `keywords` properties.
 This results in clearer code in places where searchable items are used, while moving the indexing logic in a separate file and is a basic example on how protocols and protocol extensions with default implementations can be used to easily extend other types.
+
+The full implementation of the searchable protocol shown in this article [can be checked out here](https://gist.github.com/daehn/f01687f07fc74d382004).
