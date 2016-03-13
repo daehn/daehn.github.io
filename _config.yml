@@ -2,11 +2,10 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
 
 # Setup
 title:               silvandaehn.com
-tagline:             
+tagline:
 url:                 http://silvandaehn.com
 paginate:            5
 
@@ -25,6 +24,6 @@ author:
 
 # Custom vars
 version:            1.0.0
-github_username:	daehn			
+github_username:	daehn
 repo_url:           https://github.com/daehn/daehn.github.io
 exclude: 			[vendor]
